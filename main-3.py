@@ -50,7 +50,7 @@ opt = keras.optimizers.rmsprop(lr=0.001, decay=1e-6)
 # train the model using RMSprop
 model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
 
-hist = model.fit(x_train, y_train, epochs=10, batch_size=25000, shuffle=True)
+hist = model.fit(x_train, y_train, epochs=10, batch_size=200, shuffle=True)
 model.save(model_name)
 
 # evaluate
