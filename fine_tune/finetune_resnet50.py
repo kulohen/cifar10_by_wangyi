@@ -9,6 +9,7 @@ Version:    2019/07/11
 Author:     wangyi
 
 Desc: resnet50，官方的案例
+run通过
 
 """
 from keras.applications.resnet50 import ResNet50

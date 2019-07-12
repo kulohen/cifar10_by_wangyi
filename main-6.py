@@ -7,6 +7,8 @@ from keras.layers import Dense, Dropout, Activation, Flatten, BatchNormalization
 from keras.models import Sequential
 from keras.callbacks import EarlyStopping, TensorBoard
 from keras.callbacks import ModelCheckpoint
+import cv2
+import numpy as np
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'#指定在第0块GPU上跑
 
@@ -16,8 +18,18 @@ model_name = 'cifar10.h5'
 # The data, shuffled and split between train and test sets:
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
-x_train = x_train.astype('float32')/255
-x_test = x_test.astype('float32')/255
+# (X_train,y_train),(X_test,y_test) = cifar10.load_data()
+x_train = [cv2.resize(i,(64,64)) for i in x_train]
+x_test = [cv2.resize(i,(64,64)) for i in x_test]
+x_train  = np.concatenate([arr[np.newaxis] for arr in x_train] ).astype('float32')
+x_test  = np.concatenate([arr[np.newaxis] for arr in x_test] ).astype('float32')
+print(x_train[0].shape)
+# print(x_train[0])
+
+# x_train = x_train.astype('float32')/255
+# x_test = x_test.astype('float32')/255
+x_train= x_train/255
+x_test= x_test/255
 
 # Convert class vectors to binary class matrices.
 y_train = keras.utils.to_categorical(y_train, num_classes)
@@ -25,8 +37,8 @@ y_test = keras.utils.to_categorical(y_test, num_classes)
 
 
 model = Sequential()
-model.add(Conv2D(32, (3, 3), strides=(1, 1), input_shape=(32, 32, 3), padding='same', activation='relu'))
-model.add(Conv2D(32, (3, 3), strides=(1, 1), input_shape=(32, 32, 3), padding='same', activation='relu'))
+model.add(Conv2D(32, (3, 3), strides=(1, 1), input_shape=(64, 64, 3), padding='same', activation='relu'))
+model.add(Conv2D(32, (3, 3), strides=(1, 1), input_shape=(64, 64, 3), padding='same', activation='relu'))
 # model.add(BatchNormalization())
 model.add(MaxPooling2D(pool_size=(2, 2)))
 

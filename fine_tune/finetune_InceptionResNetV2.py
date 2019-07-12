@@ -8,7 +8,7 @@ Version:    2019/07/11
 
 Author:     wangyi
 
-Desc: resnet50，官方的案例
+Desc: inception_resnet_v2，官方的案例
 
 """
 from keras.applications.inception_resnet_v2 import InceptionResNetV2

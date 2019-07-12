@@ -9,7 +9,7 @@ Version:    2019/07/11
 Author:     wangyi
 
 Desc: vgg16，官方的案例
-
+run通过
 """
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
