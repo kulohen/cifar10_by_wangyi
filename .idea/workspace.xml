@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71a17ea-7a83-41b0-aa23-e346051cd401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/finetune_resnet50.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finetune_vgg16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cifar10_by_wangyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cifar10_by_wangyi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finetune_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/finetune_test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/finetune_vgg16.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="216">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#120#168#0" expanded="true" />
               </folding>
@@ -334,7 +328,7 @@
       <workItem from="1562676311164" duration="3809000" />
       <workItem from="1562767986035" duration="3517000" />
       <workItem from="1562848869594" duration="350000" />
-      <workItem from="1562890316059" duration="6710000" />
+      <workItem from="1562890316059" duration="8183000" />
     </task>
     <task id="LOCAL-00001" summary="2019/7/9 20:52 initial">
       <created>1562676762044</created>
@@ -357,22 +351,29 @@
       <option name="project" value="LOCAL" />
       <updated>1562694633578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加了PreTrain的尝试，载入官方已训练imageNet的权重">
+      <created>1562897383667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562897383668</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71772000" />
+    <option name="totallyTimeSpent" value="73245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.23927614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.23927614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50059456" side_tool="true" weight="0.23089632" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,7 +447,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/7/9 20:52 initial" />
     <MESSAGE value="没啥改动..." />
-    <option name="LAST_COMMIT_MESSAGE" value="没啥改动..." />
+    <MESSAGE value="添加了PreTrain的尝试，载入官方已训练imageNet的权重" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了PreTrain的尝试，载入官方已训练imageNet的权重" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cifar10_by_wangyi$data_utils.coverage" NAME="data_utils Coverage Results" MODIFIED="1561873861119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/utils" />
@@ -575,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/finetune_vgg16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="216">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="e#120#168#0" expanded="true" />
           </folding>
