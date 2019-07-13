@@ -1,3 +1,5 @@
+#coding=utf-8
+
 import keras
 from keras.datasets import cifar10
 from keras.callbacks import EarlyStopping, TensorBoard
@@ -32,9 +34,9 @@ model.summary()
 early_stopping = EarlyStopping(monitor='val_loss', patience=10)
 tb = TensorBoard(log_dir='log')
 checkpoint = ModelCheckpoint(filepath='file_name', monitor='val_acc', mode='auto', save_best_only='True')
-count_epochs = 100
+count_epochs = 1
 for step in range(count_epochs):
-    hist = model.fit(x_train, y_train, epochs=1, batch_size=100, shuffle=True, validation_split=0.1, callbacks=[tb, checkpoint], verbose=1)
+    hist = model.fit(x_train, y_train, epochs=100, batch_size=100, shuffle=True, validation_split=0.1, callbacks=[tb, checkpoint], verbose=1)
     loss, accuracy = model.evaluate(x_test, y_test, batch_size=1000, verbose=2)
     print('步骤', step+1, ':test loss, accuracy: %.4f ,%.4f' %(loss, accuracy))
 # print(hist.history)
