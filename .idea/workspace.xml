@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71a17ea-7a83-41b0-aa23-e346051cd401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fine_tune/vgg16_on_cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cifar10_by_wangyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cifar10_by_wangyi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-6.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/finetune_DenseNet121.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/finetune_DenseNet121.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/finetune_DenseNet169.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/finetune_DenseNet169.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/finetune_Xception.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/finetune_Xception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/finetune_resnet50.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/finetune_resnet50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fine_tune/vgg16_on_cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_tune/vgg16_on_cifar10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,23 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fine_tune/vgg16_on_cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="e#2#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="594">
+              <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="810">
+              <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -44,26 +51,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fine_tune/finetune_Xception.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="450">
+              <caret line="28" column="24" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/applications/vgg16.py">
+        <entry file="file://$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="18">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/applications/__init__.py">
+        <entry file="file://$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fine_tune/finetune_DenseNet169.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fine_tune/finetune_DenseNet121.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fine_tune/finetune_resnet50.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#144#192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fine_tune/finetune_vgg16.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="324">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#122#164#0" expanded="true" />
               </folding>
@@ -81,21 +118,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras_applications/vgg16.py">
+        <entry file="file://$PROJECT_DIR$/fine_tune/finetune_test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-5-byme vgg16.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="52" selection-start-line="52" selection-end-line="53" selection-end-column="15" />
+            <state relative-caret-position="252">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#120#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,19 +164,26 @@
         <option value="$PROJECT_DIR$/finetune_InceptionResNetV2.py" />
         <option value="$PROJECT_DIR$/finetune_DenseNet169.py" />
         <option value="$PROJECT_DIR$/finetune_DenseNet121.py" />
-        <option value="$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py" />
         <option value="$PROJECT_DIR$/fine_tune/finetune_vgg19.py" />
         <option value="$PROJECT_DIR$/fine_tune/finetune_vgg16.py" />
-        <option value="$PROJECT_DIR$/fine_tune/finetune_resnet50.py" />
         <option value="$PROJECT_DIR$/main-6.py" />
         <option value="$PROJECT_DIR$/ResNet50_on_cifar10.py" />
+        <option value="$PROJECT_DIR$/fine_tune/finetune_Xception.py" />
+        <option value="$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py" />
+        <option value="$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py" />
+        <option value="$PROJECT_DIR$/fine_tune/finetune_DenseNet169.py" />
+        <option value="$PROJECT_DIR$/fine_tune/finetune_DenseNet121.py" />
+        <option value="$PROJECT_DIR$/fine_tune/finetune_resnet50.py" />
+        <option value="$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py" />
+        <option value="$PROJECT_DIR$/fine_tune/vgg16_on_cifar10.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="x" value="83" />
+    <option name="y" value="32" />
+    <option name="width" value="1239" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -188,7 +223,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -212,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.finetune_Xception">
+  <component name="RunManager" selected="Python.vgg16_on_cifar10">
     <configuration name="ResNet50_on_cifar10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cifar10_by_wangyi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,7 +256,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fine_tune" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -235,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="finetune_InceptionV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="finetune_InceptionResNetV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cifar10_by_wangyi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +283,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="finetune_vgg19" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="finetune_resnet50" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cifar10_by_wangyi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,7 +327,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fine_tune/finetune_vgg19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fine_tune/finetune_resnet50.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main-6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vgg16_on_cifar10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cifar10_by_wangyi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,7 +344,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fine_tune" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -325,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.finetune_Xception" />
+        <item itemvalue="Python.vgg16_on_cifar10" />
         <item itemvalue="Python.ResNet50_on_cifar10" />
-        <item itemvalue="Python.main-6" />
-        <item itemvalue="Python.finetune_InceptionV3" />
-        <item itemvalue="Python.finetune_vgg19" />
+        <item itemvalue="Python.finetune_Xception" />
+        <item itemvalue="Python.finetune_resnet50" />
+        <item itemvalue="Python.finetune_InceptionResNetV2" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +401,7 @@
       <workItem from="1562848869594" duration="350000" />
       <workItem from="1562890316059" duration="8183000" />
       <workItem from="1562943401639" duration="10159000" />
+      <workItem from="1562996078293" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="2019/7/9 20:52 initial">
       <created>1562676762044</created>
@@ -413,18 +449,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83404000" />
+    <option name="totallyTimeSpent" value="88761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="721" extended-state="6" />
-    <editor active="true" />
+    <frame x="83" y="32" width="2477" height="1408" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.24313408" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.25361422" />
+      <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.25361422" />
       <window_info id="Favorites" order="2" sideWeight="0.50059456" side_tool="true" weight="0.23089632" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.32591414" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.32456142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,8 +467,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49814126" weight="0.3293461" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" weight="0.32591414" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32828686" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50103265" side_tool="true" weight="0.3277512" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49896738" weight="0.3277512" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,24 +538,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加了一些model模型，inception类没跑成功，需要研究研究" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_4_byme.coverage" NAME="main-4-byme Coverage Results" MODIFIED="1562440232854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main.coverage" NAME="main Coverage Results" MODIFIED="1561999958407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_InceptionV3.coverage" NAME="finetune_InceptionV3 Coverage Results" MODIFIED="1562947789471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
     <SUITE FILE_PATH="coverage/cifar10_by_wangyi$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1562894140111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_resnet50.coverage" NAME="finetune_resnet50 Coverage Results" MODIFIED="1562947427070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_InceptionResNetV2.coverage" NAME="finetune_InceptionResNetV2 Coverage Results" MODIFIED="1562947492354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_vgg19.coverage" NAME="finetune_vgg19 Coverage Results" MODIFIED="1562947659379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$ResNet50_on_cifar10.coverage" NAME="ResNet50_on_cifar10 Coverage Results" MODIFIED="1562992838627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_2.coverage" NAME="main-2 Coverage Results" MODIFIED="1561995670045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_vgg16.coverage" NAME="finetune_vgg16 Coverage Results" MODIFIED="1562895830103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_DenseNet121.coverage" NAME="finetune_DenseNet121 Coverage Results" MODIFIED="1562946126479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_test1.coverage" NAME="finetune_test1 Coverage Results" MODIFIED="1562891488115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_DenseNet169.coverage" NAME="finetune_DenseNet169 Coverage Results" MODIFIED="1562945980533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_InceptionResNetV2.coverage" NAME="finetune_InceptionResNetV2 Coverage Results" MODIFIED="1562998652168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
     <SUITE FILE_PATH="coverage/cifar10_by_wangyi$data_utils.coverage" NAME="data_utils Coverage Results" MODIFIED="1561873861119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/utils" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_6.coverage" NAME="main-6 Coverage Results" MODIFIED="1562990986365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_Xception.coverage" NAME="finetune_Xception Coverage Results" MODIFIED="1563000215417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_InceptionV3.coverage" NAME="finetune_InceptionV3 Coverage Results" MODIFIED="1562998616410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
     <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_3.coverage" NAME="main-3 Coverage Results" MODIFIED="1562768082136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_Xception.coverage" NAME="finetune_Xception Coverage Results" MODIFIED="1562993012591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main.coverage" NAME="main Coverage Results" MODIFIED="1561999958407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_test1.coverage" NAME="finetune_test1 Coverage Results" MODIFIED="1562891488115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_6.coverage" NAME="main-6 Coverage Results" MODIFIED="1562990986365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_vgg16.coverage" NAME="finetune_vgg16 Coverage Results" MODIFIED="1562997464623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_2.coverage" NAME="main-2 Coverage Results" MODIFIED="1561995670045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_5_byme_vgg16.coverage" NAME="main-5-byme vgg16 Coverage Results" MODIFIED="1562694098905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_DenseNet121.coverage" NAME="finetune_DenseNet121 Coverage Results" MODIFIED="1562946126479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$main_4_byme.coverage" NAME="main-4-byme Coverage Results" MODIFIED="1562440232854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_vgg19.coverage" NAME="finetune_vgg19 Coverage Results" MODIFIED="1562947659379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_resnet50.coverage" NAME="finetune_resnet50 Coverage Results" MODIFIED="1563000202920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$finetune_DenseNet169.coverage" NAME="finetune_DenseNet169 Coverage Results" MODIFIED="1562945980533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$vgg16_on_cifar10.coverage" NAME="vgg16_on_cifar10 Coverage Results" MODIFIED="1563033566084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
+    <SUITE FILE_PATH="coverage/cifar10_by_wangyi$ResNet50_on_cifar10.coverage" NAME="ResNet50_on_cifar10 Coverage Results" MODIFIED="1563033546458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fine_tune" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cifar-10-batches-py/readme.html" />
@@ -589,48 +625,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/datasets/cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#52#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_DenseNet121.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding>
-            <element signature="e#123#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_DenseNet169.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#120#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/datasets/cifar10.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/datasets/mnist.py" />
     <entry file="file://$PROJECT_DIR$/fine_tune/finetune_vgg19.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -638,63 +634,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/datasets/__init__.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/applications/vgg16.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/applications/__init__.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras_applications/vgg16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#120#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#120#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_resnet50.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#126#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/datasets/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/applications/vgg16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras/applications/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="2898">
+          <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-5-byme vgg16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="936">
           <caret line="52" selection-start-line="52" selection-end-line="53" selection-end-column="15" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -702,46 +654,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/keras_applications/vgg16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fine_tune/finetune_vgg16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="324">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#122#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py">
+    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="252">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#120#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_InceptionV3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_DenseNet169.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_InceptionResNetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#144#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fine_tune/finetune_Xception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="450">
+          <caret line="28" column="24" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fine_tune/vgg16_on_cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="594">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine_tune/finetune_DenseNet121.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine_tune/ResNet50_on_cifar10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
           <folding>
-            <element signature="e#2#14#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
